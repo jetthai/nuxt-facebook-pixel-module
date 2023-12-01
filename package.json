@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-facebook-pixel-module",
-  "version": "1.6.0",
+  "name": "@jetthai/nuxt-facebook-pixel-module",
+  "version": "1.6.1",
   "description": "Nuxt plugin for Facebook pixel",
   "license": "MIT",
   "contributors": [
@@ -12,18 +12,18 @@
     },
     {
       "name": "David Tabachnikov"
+    },
+    {
+      "name": "JT"
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/WilliamDASILVA/nuxt-facebook-pixel-module",
-  "publishConfig": {
-    "access": "public"
-  },
+  "repository": "https://github.com/jetthai/nuxt-facebook-pixel-module",
   "scripts": {
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "jest",
-    "release": "standard-version && git push --follow-tags"
+    "release": "standard-version && git push --follow-tags origin dev && npm publish"
   },
   "eslintIgnore": [
     "lib/templates/*.*"
