@@ -1,6 +1,6 @@
 {
   "name": "@jetthai/nuxt-facebook-pixel-module",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Nuxt plugin for Facebook pixel",
   "license": "MIT",
   "contributors": [
